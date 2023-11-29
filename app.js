@@ -27,7 +27,6 @@ app.use('/category',categoryRouter)
 app.use('/products',productRouter)
 app.use()
 
-
 app.listen(port, function(err){
     dbConnect()
     if(err) throw err;
